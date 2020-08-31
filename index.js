@@ -3,4 +3,6 @@ function buttonFunction() {
   element.innerHTML += "pressed<br>";
 }
 
-document.querySelector('button').onclick = buttonFunction;
+window.onload = function() {
+  document.querySelector('button').onclick = buttonFunction;
+}
